@@ -1,10 +1,10 @@
 package main
 
 import (
-	"crawler/internal/app"
-	"crawler/internal/infrastructure/util"
 	"flag"
 	"fmt"
+	"github.com/bearname/url-extractor/internal/app"
+	"github.com/bearname/url-extractor/internal/infrastructure/util"
 )
 
 func main() {
