@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/bearname/url-extractor/internal/app"
-	"github.com/bearname/url-extractor/internal/infrastructure/util"
+	"github.com/bearname/url-extractor/pkg/app"
+	"github.com/bearname/url-extractor/pkg/infrastructure/util"
 )
 
 func main() {
