@@ -7,7 +7,6 @@ type Crawler struct {
 	mux     sync.Mutex
 }
 
-
 func New() *Crawler {
 	return &Crawler{
 		Crawled: make(map[string]bool),
